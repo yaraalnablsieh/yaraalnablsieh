@@ -1,0 +1,15 @@
+#show {
+  background-color: #000000;
+  transform: translateY(-10px);
+  opacity: 1;
+  animation: showDown 0.5s ease-out forwards;
+}
+
+@keyframes showDown {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
